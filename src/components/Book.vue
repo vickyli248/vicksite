@@ -1,6 +1,10 @@
 <template>
     <div class="one-book">
-        <img :src="`src/assets/books/${book.image}`" :alt="book.title" class="book-cover"/>
+        <img
+            :src="`src/assets/books/${book.image}`"
+            :alt="book.title"
+            class="book-cover"
+        />
         <div class="book-info">
             <h3>{{ book.title }}</h3>
             <p>{{ book.description }}</p>
