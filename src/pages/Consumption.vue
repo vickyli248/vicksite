@@ -29,7 +29,7 @@
                     @click.prevent="scrollToSection('articlesSection')"
                     class="nav-item"
                 >
-                    good articles
+                    other things
                 </a>
             </div>
             <Transition name="fade">
@@ -67,7 +67,36 @@
                         id="articlesSection"
                         ref="articlesSection"
                     >
-                        <h2 class="section-header">good articles</h2>
+                        <h2 class="section-header">other things</h2>
+                        <div class="other-things-item">
+                            <h3>
+                                ML applications on roads, how to make traffic
+                                more coordinated, efficient, and safe.
+                            </h3>
+                            <a
+                                href="https://news.mit.edu/2022/machine-learning-anticipating-behavior-cars-0421"
+                                class="link-item"
+                            >
+                                https://news.mit.edu/2022/machine-learning-anticipating-behavior-cars-0421</a
+                            >
+                            <a
+                                href="https://news.mit.edu/2022/ai-autonomous-driving-idle-0517"
+                                class="link-item"
+                            >
+                                https://news.mit.edu/2022/ai-autonomous-driving-idle-0517</a
+                            >
+                            <iframe
+                                style="border-radius: 12px"
+                                src="https://open.spotify.com/embed/episode/1Xgm7p8I4q37uRVPt1OqOP?utm_source=generator"
+                                width="100%"
+                                height="175"
+                                frameBorder="0"
+                                allowfullscreen=""
+                                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                loading="lazy"
+                                class="spotify"
+                            ></iframe>
+                        </div>
                         <h3 class="loading">🐿️ gathering</h3>
                     </div>
                 </div>
@@ -170,7 +199,18 @@ export default {
     content: '\2026'; /* ascii code for the ellipsis character */
     width: 0px;
 }
-
+.other-things-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 80%;
+}
+a.link-item {
+    text-decoration: underline;
+}
+.spotify {
+    margin-top: 12px;
+}
 @keyframes ellipsis {
     to {
         width: 1.25em;
@@ -197,6 +237,12 @@ export default {
     }
     .section-header {
         margin-top: 48px;
+    }
+    .other-things-item {
+        width: 100%;
+    }
+    .link-item {
+        margin-top: 12px;
     }
 }
 </style>
