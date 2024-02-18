@@ -1,7 +1,7 @@
 <template>
     <div class="one-book">
         <img
-            :src="`public/assets/books/${book.image}`"
+            :src="`/assets/books/${book.image}`"
             :alt="book.title"
             class="book-cover"
         />
