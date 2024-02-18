@@ -1,7 +1,7 @@
 <template>
     <div class="one-job">
         <img
-            :src="`src/assets/jobs/${job.img}`"
+            :src="`public/assets/jobs/${job.img}`"
             :alt="job.title"
             class="logo"
         />
