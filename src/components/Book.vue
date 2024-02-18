@@ -6,7 +6,7 @@
             class="book-cover"
         />
         <div class="book-info">
-            <h3>{{ book.title }}</h3>
+            <h3 class="bold">{{ book.title }}</h3>
             <p>{{ book.description }}</p>
         </div>
     </div>
@@ -26,7 +26,8 @@ img {
 }
 .one-book {
     display: flex;
-    width: 80%;
+    width: 90%;
+    margin-top: 24px;
 }
 .book-info {
     display: flex;
@@ -34,5 +35,18 @@ img {
 }
 .book-cover {
     height: 125px;
+}
+
+@media screen and (max-width: 1000px) {
+    .one-book {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 28px;
+    }
+    .book-cover {
+        height: auto;
+        width: 175px;
+        margin-bottom: 16px
+    }
 }
 </style>

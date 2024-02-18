@@ -11,7 +11,7 @@
         ></iframe>
 
         <div class="video-info">
-            <h3>{{ video.name }}</h3>
+            <h3 class="bold">{{ video.name }}</h3>
             <p>{{ video.description }}</p>
         </div>
     </div>
@@ -40,5 +40,13 @@ iframe {
 }
 .video-cover {
     height: 125px;
+}
+@media screen and (max-width: 1000px) {
+    .one-video {
+        flex-direction: column-reverse;
+    }
+    iframe {
+        width: 100%;
+    }
 }
 </style>

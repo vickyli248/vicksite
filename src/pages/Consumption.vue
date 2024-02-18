@@ -12,7 +12,7 @@
                 </h1>
             </div>
             <div class="nav-row">
-                <h3 class="nav-label">jump to →</h3>
+                <h3 class="nav-label bold">jump to →</h3>
                 <a
                     @click.prevent="scrollToSection('booksSection')"
                     class="nav-item"
@@ -68,7 +68,7 @@
                         ref="articlesSection"
                     >
                         <h2 class="section-header">good articles</h2>
-                        <h3 class="book">🐿️ gathering...</h3>
+                        <h3 class="loading">🐿️ gathering</h3>
                     </div>
                 </div>
             </Transition>
@@ -98,10 +98,9 @@ export default {
         Video,
     },
     mounted() {
-        // Set showBooks to true after a delay (optional)
         setTimeout(() => {
             this.showBooks = true
-        }, 0) // Adjust delay as needed
+        }, 0)
     },
     methods: {
         scrollToSection(section) {
@@ -130,6 +129,7 @@ export default {
     position: sticky;
     top: 0px;
     background-color: #121f12;
+    width: 100%;
 }
 .nav-label {
     margin-right: 24px;
@@ -153,9 +153,6 @@ export default {
 .content-section {
     padding-top: 48px;
 }
-.book {
-    margin-top: 20px;
-}
 .fade-enter-active,
 .fade-leave-active {
     transition: opacity 900ms ease-in;
@@ -163,5 +160,43 @@ export default {
 
 .fade-enter-from {
     opacity: 0;
+}
+.loading:after {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    -webkit-animation: ellipsis steps(4, end) 900ms infinite;
+    animation: ellipsis steps(5, end) 900ms infinite;
+    content: '\2026'; /* ascii code for the ellipsis character */
+    width: 0px;
+}
+
+@keyframes ellipsis {
+    to {
+        width: 1.25em;
+    }
+}
+
+@-webkit-keyframes ellipsis {
+    to {
+        width: 1.25em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+    }
+    .content-section {
+        padding-top: 8px;
+    }
+    .nav-row {
+        flex-direction: column;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .section-header {
+        margin-top: 48px;
+    }
 }
 </style>

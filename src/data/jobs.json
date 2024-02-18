@@ -1,0 +1,22 @@
+[
+    {
+        "img": "stubhub.png",
+        "title": "product manager - stubhub [current]",
+        "description": "product lead on the performer page (the page with the list of a performer's events), leading a team of 6 engineers and designers. maintaining smooth team operations, designing features, driving and roadmapping product decisions, building data analysis tools."
+    },
+    {
+        "img": "redfin.png",
+        "title": "product designer - redfin [internship]",
+        "description": "product design intern on the design systems team, building and shipping redfin's flagship design system, Blueprint. created meta-design system, rolled out and tested the new design system, and designed guidelines for building resilient interfaces that scale with dynamic type sizing."
+    },
+    {
+        "img": "bill.png",
+        "title": "software engineer - BILL [internship]",
+        "description": "frontend engineer on the SIMBA team (simple and basic), building BILL's white-label payments product for sole proprietors within bank of america. built and shipped application empty states and a bulk payments feature that allows users to make up to 20 payments at once."
+    },
+    {
+        "img": "canoo.png",
+        "title": "software engineer - canoo [internship]",
+        "description": "frontend engineer on the software operations team. built dashboard interfaces for key company metrics, designed and built a test vehicle tracking application, redesigned and built features for a vehicle software deployment application."
+    }
+]
