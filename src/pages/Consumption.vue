@@ -89,7 +89,7 @@
                                 style="border-radius: 12px"
                                 src="https://open.spotify.com/embed/episode/1Xgm7p8I4q37uRVPt1OqOP?utm_source=generator"
                                 width="100%"
-                                height="175"
+                                height="152"
                                 frameBorder="0"
                                 allowfullscreen=""
                                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
@@ -209,7 +209,7 @@ a.link-item {
     text-decoration: underline;
 }
 .spotify {
-    margin-top: 12px;
+    margin: 12px 0;
 }
 @keyframes ellipsis {
     to {

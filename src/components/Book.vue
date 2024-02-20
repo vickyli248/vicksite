@@ -45,7 +45,7 @@ img {
     }
     .book-cover {
         height: auto;
-        width: 175px;
+        width: 125px;
         margin-bottom: 16px
     }
 }
