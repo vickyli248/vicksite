@@ -29,7 +29,7 @@ export default {
 .one-video {
     display: flex;
     width: 90%;
-    margin-top: 24px;
+    margin-top: 32px;
 }
 iframe {
     margin-right: 24px;

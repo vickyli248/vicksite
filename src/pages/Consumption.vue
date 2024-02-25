@@ -152,25 +152,6 @@ export default {
 .container {
     display: flex;
 }
-.nav-row {
-    padding: 16px 0px 8px 0px;
-    display: flex;
-    position: sticky;
-    top: 0px;
-    background-color: #121f12;
-    width: 100%;
-}
-.nav-label {
-    margin-right: 24px;
-}
-.nav-item {
-    text-decoration: underline;
-    font-weight: 500;
-    font-size: 1.2em;
-    margin: 0;
-    cursor: pointer;
-    margin-right: 24px;
-}
 .content {
     display: flex;
     flex-direction: column;
@@ -229,11 +210,6 @@ a.link-item {
     }
     .content-section {
         padding-top: 8px;
-    }
-    .nav-row {
-        flex-direction: column;
-        padding-top: 12px;
-        padding-bottom: 12px;
     }
     .section-header {
         margin-top: 48px;

@@ -1,13 +1,13 @@
 <template>
-    <div class="one-job">
+    <div class="one-foray">
         <img
-            :src="`/assets/jobs/${job.img}`"
-            :alt="job.title"
+            :src="`/assets/forays/${foray.img}`"
+            :alt="foray.title"
             class="logo"
         />
-        <div class="job-info">
-            <h3 class="bold">{{ job.title }}</h3>
-            <p>{{ job.description }}</p>
+        <div class="foray-info">
+            <h3 class="bold">{{ foray.title }}</h3>
+            <p>{{ foray.subtitle }}</p>
         </div>
     </div>
 </template>
@@ -15,30 +15,30 @@
 <script>
 export default {
     props: {
-        job: Object,
+        foray: Object,
     },
 }
 </script>
 
 <style scoped>
 .logo {
-    min-width: 100px;
-    max-width: 100px;
+    min-height: 150px;
+    max-height: 150px;
     height: 100%;
-    margin-right: 36px;
+    margin-right: 24px;
 }
-.one-job {
+.one-foray {
     display: flex;
     flex-direction: row;
     margin-top: 32px;
     width: 85%;
 }
-.job-info {
+.foray-info {
     display: flex;
     flex-direction: column;
 }
 @media screen and (max-width: 1000px) {
-    .one-job {
+    .one-foray {
         flex-direction: column;
         width: 100%;
         margin-bottom: 20px;

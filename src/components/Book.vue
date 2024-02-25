@@ -27,14 +27,14 @@ img {
 .one-book {
     display: flex;
     width: 90%;
-    margin-top: 24px;
+    margin-top: 32px;
 }
 .book-info {
     display: flex;
     flex-direction: column;
 }
 .book-cover {
-    height: 125px;
+    height: 150px;
 }
 
 @media screen and (max-width: 1000px) {

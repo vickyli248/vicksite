@@ -66,7 +66,7 @@ export default {
     margin-top: 0px;
 }
 .content-section {
-    padding-top: 48px;
+    padding-top: 16px;
 }
 
 .fade-enter-active,

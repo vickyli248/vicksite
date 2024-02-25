@@ -1,0 +1,74 @@
+[
+    {
+        "img": "designtalks.png",
+        "title": "@design.talks: the why behind everything",
+        "subtitle": "→ content-creation, design",
+        "description": ""
+    },
+    {
+        "img": "wdb.png",
+        "title": "web development at berkeley: creating a community around building",
+        "subtitle": "→ community-building, brand design",
+        "description": ""
+    },
+    {
+        "img": "fullstackdecal.png",
+        "title": "introduction to full stack development course",
+        "subtitle": "→ curriculum development, teaching",
+        "description": ""
+    },
+    {
+        "img": "vickyyli.png",
+        "title": "@vickyyli: early career, college, recruiting, and everything in between",
+        "subtitle": "→ content-creation, business ops",
+        "description": ""
+    },
+    {
+        "img": "redfinstay.png",
+        "title": "redfin stay: short term rentals on redfin",
+        "subtitle": "→ ux / product design",
+        "description": ""
+    },
+    {
+        "img": "together.png",
+        "title": "together: long distance cooking  ",
+        "subtitle": "→ app design, ux / product design",
+        "description": ""
+    },
+    {
+        "img": "happydrops.png",
+        "title": "happy drops: creating cute things that make people smile",
+        "subtitle": "→ app design, ux / product design",
+        "description": ""
+    },
+    {
+        "img": "huddle.png",
+        "title": "huddle: redefining virtual social interactions",
+        "subtitle": "→ all types of design, frontend development",
+        "description": ""
+    },
+    {
+        "img": "circles.png",
+        "title": "circles: a group-oriented social platform",
+        "subtitle": "→ app design, ux / product design",
+        "description": ""
+    },
+    {
+        "img": "cs70.png",
+        "title": "discrete math and probability theory",
+        "subtitle": "→ course staff, teaching",
+        "description": ""
+    },
+    {
+        "img": "data8.png",
+        "title": "foundations of data science",
+        "subtitle": "→ curriculum development, teaching",
+        "description": ""
+    },
+    {
+        "img": "vlmedia.png",
+        "title": "vl media: capturing happiness",
+        "subtitle": "→ curriculum development, teaching",
+        "description": ""
+    }
+]
