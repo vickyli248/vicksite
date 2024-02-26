@@ -21,6 +21,9 @@ export default {
 </script>
 
 <style scoped>
+p {
+    margin-top: 4px;
+}
 .logo {
     min-height: 150px;
     max-height: 150px;
@@ -31,7 +34,7 @@ export default {
     display: flex;
     flex-direction: row;
     margin-top: 32px;
-    width: 85%;
+    width: 90%;
 }
 .foray-info {
     display: flex;

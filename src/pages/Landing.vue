@@ -12,13 +12,13 @@ defineProps({
             <span class="bold">vicky:</span> designer, product person, &
             engineer in new york city
         </h1>
-        <h3>
+        <h3 class="spaced">
             <span class="bold">enthused by: </span> HCI of autonomous systems,
             the ingredients of a delightful consumer product, transportation &
             mobility, aviation, storytelling, engineering youtube videos, the
             pigeons on my window ledge, community building
         </h3>
-        <h3 class="currently">
+        <h3 class="currently spaced">
             <span class="bold">currently: </span> consumer product @ stubhub,
             bringing more folks to more live events
         </h3>

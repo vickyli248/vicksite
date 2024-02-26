@@ -11,27 +11,30 @@
                     videos, articles, things that shape my brain
                 </h1>
             </div>
-            <div class="nav-row">
+            <div class="nav">
                 <h3 class="nav-label bold">jump to →</h3>
-                <a
-                    @click.prevent="scrollToSection('booksSection')"
-                    class="nav-item"
-                >
-                    2024 reading list
-                </a>
-                <a
-                    @click.prevent="scrollToSection('videosSection')"
-                    class="nav-item"
-                >
-                    interesting youtube videos
-                </a>
-                <a
-                    @click.prevent="scrollToSection('articlesSection')"
-                    class="nav-item"
-                >
-                    other things
-                </a>
+                <div class="nav-row">
+                    <a
+                        @click.prevent="scrollToSection('booksSection')"
+                        class="nav-item"
+                    >
+                        2024 reading list
+                    </a>
+                    <a
+                        @click.prevent="scrollToSection('videosSection')"
+                        class="nav-item"
+                    >
+                        interesting youtube videos
+                    </a>
+                    <a
+                        @click.prevent="scrollToSection('articlesSection')"
+                        class="nav-item"
+                    >
+                        other things
+                    </a>
+                </div>
             </div>
+
             <Transition name="fade">
                 <div v-if="showBooks">
                     <div
