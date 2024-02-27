@@ -6,7 +6,7 @@
             class="logo"
         />
         <div class="job-info">
-            <h3 class="bold">{{ job.title }}</h3>
+            <h3>{{ job.title }}</h3>
             <p>{{ job.description }}</p>
         </div>
     </div>

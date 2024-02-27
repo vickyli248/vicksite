@@ -6,7 +6,7 @@
             class="book-cover"
         />
         <div class="book-info">
-            <h3 class="bold">{{ book.title }}</h3>
+            <h3>{{ book.title }}</h3>
             <p>{{ book.description }}</p>
         </div>
     </div>

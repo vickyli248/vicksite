@@ -65,10 +65,6 @@ export default {
 .section-header {
     margin-top: 0px;
 }
-.content-section {
-    padding-top: 16px;
-}
-
 .fade-enter-active,
 .fade-leave-active {
     transition: opacity 300ms ease-in;
@@ -81,9 +77,6 @@ export default {
 @media screen and (max-width: 1000px) {
     .container {
         flex-direction: column;
-    }
-    .content-section {
-        padding-top: 8px;
     }
 }
 </style>

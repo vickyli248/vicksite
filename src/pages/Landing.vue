@@ -26,19 +26,19 @@ defineProps({
     <div class="content">
         <router-link to="/professional" class="row-box">
             <div>
-                <h2 class="bold">work experience</h2>
+                <h3>work experience</h3>
                 <p>some stuff that i've worked on as an employee</p>
             </div>
         </router-link>
 
         <router-link to="/funfunfun" class="row-box">
             <div>
-                <h2 class="bold">fun forays</h2>
+                <h3>fun forays</h3>
                 <p>the involuntary things that fill me with glee</p>
             </div> </router-link
         ><router-link to="/consumption" class="row-box">
             <div>
-                <h2 class="bold">curated consumption</h2>
+                <h3>curated consumption</h3>
                 <p>books, videos, articles, the things that shape my brain</p>
             </div>
         </router-link>

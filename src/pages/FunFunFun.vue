@@ -95,12 +95,6 @@ export default {
     flex-direction: column;
     margin-top: 0;
 }
-.section-header {
-    margin-top: 0px;
-}
-.content-section {
-    padding-top: 16px;
-}
 
 .fade-enter-active,
 .fade-leave-active {
@@ -114,9 +108,6 @@ export default {
 @media screen and (max-width: 1000px) {
     .container {
         flex-direction: column;
-    }
-    .content-section {
-        padding-top: 8px;
     }
 }
 </style>

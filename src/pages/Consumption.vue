@@ -12,7 +12,7 @@
                 </h1>
             </div>
             <div class="nav">
-                <h3 class="nav-label bold">jump to →</h3>
+                <h3 class="nav-label">jump to →</h3>
                 <div class="nav-row">
                     <a
                         @click.prevent="scrollToSection('booksSection')"
@@ -42,7 +42,7 @@
                         id="booksSection"
                         ref="booksSection"
                     >
-                        <h2 class="section-header">2024 reading list</h2>
+                        <h2>2024 reading list</h2>
 
                         <div
                             v-for="book in books"
@@ -57,9 +57,7 @@
                         id="videosSection"
                         ref="videosSection"
                     >
-                        <h2 class="section-header">
-                            interesting youtube videos
-                        </h2>
+                        <h2>interesting youtube videos</h2>
 
                         <div v-for="video in videos" class="video-list">
                             <Video :video="video" class="video" />
@@ -70,7 +68,7 @@
                         id="articlesSection"
                         ref="articlesSection"
                     >
-                        <h2 class="section-header">other things</h2>
+                        <h2>other things</h2>
                         <div class="other-things-item">
                             <h3>
                                 ML applications on roads, how to make traffic
@@ -136,15 +134,30 @@ export default {
     },
     methods: {
         scrollToSection(section) {
-            const booksSection = this.$refs.booksSection
-            const videosSection = this.$refs.videosSection
-            const articlesSection = this.$refs.articlesSection
-            if (section == 'booksSection') {
-                booksSection.scrollIntoView({ behavior: 'smooth' })
-            } else if (section == 'videosSection') {
-                videosSection.scrollIntoView({ behavior: 'smooth' })
-            } else if (section == 'articlesSection') {
-                articlesSection.scrollIntoView({ behavior: 'smooth' })
+            let targetSection = null
+
+            // Determine the target section based on the provided argument
+            if (section === 'booksSection') {
+                targetSection = this.$refs.booksSection
+            } else if (section === 'videosSection') {
+                targetSection = this.$refs.videosSection
+            } else if (section === 'articlesSection') {
+                targetSection = this.$refs.articlesSection
+            }
+
+            // Scroll to the target section
+            if (targetSection) {
+                // Recalculate the section's position relative to the viewport
+                const rect = targetSection.getBoundingClientRect()
+                const scrollTop =
+                    window.pageYOffset || document.documentElement.scrollTop
+                const sectionTop = rect.top + scrollTop
+
+                // Scroll to the target section with adjusted offset
+                window.scrollTo({
+                    top: sectionTop - 100, // Adjust as needed
+                    behavior: 'smooth',
+                })
             }
         },
     },
@@ -159,12 +172,6 @@ export default {
     display: flex;
     flex-direction: column;
     margin-top: 0;
-}
-.section-header {
-    margin-top: 0px;
-}
-.content-section {
-    padding-top: 48px;
 }
 .fade-enter-active,
 .fade-leave-active {
@@ -210,9 +217,6 @@ a.link-item {
 @media screen and (max-width: 1000px) {
     .container {
         flex-direction: column;
-    }
-    .content-section {
-        padding-top: 8px;
     }
     .section-header {
         margin-top: 48px;

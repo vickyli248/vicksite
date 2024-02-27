@@ -6,7 +6,7 @@
             class="logo"
         />
         <div class="foray-info">
-            <h3 class="bold">{{ foray.title }}</h3>
+            <h3>{{ foray.title }}</h3>
             <p>{{ foray.subtitle }}</p>
         </div>
     </div>
