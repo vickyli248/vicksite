@@ -135,6 +135,11 @@ export default {
     methods: {
         scrollToSection(section) {
             let targetSection = null
+            let offset = 20; // Default offset for desktop
+            if (window.innerWidth <= 1000) { // Adjust threshold as needed
+            offset = 100; // Offset for mobile devices
+        }
+
 
             // Determine the target section based on the provided argument
             if (section === 'booksSection') {
@@ -155,7 +160,7 @@ export default {
 
                 // Scroll to the target section with adjusted offset
                 window.scrollTo({
-                    top: sectionTop - 100, // Adjust as needed
+                    top: sectionTop - offset, // Adjust as needed
                     behavior: 'smooth',
                 })
             }

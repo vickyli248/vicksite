@@ -124,7 +124,7 @@ p {
   line-height: 120%;
 }
 .content-section {
-  padding-top: 48px;
+  padding-top: 24px;
 }
 
 
@@ -168,7 +168,7 @@ p {
     width: inherit;
   }
   .content-section {
-    padding-top: 28px;
+    padding-top: 16px;
   }
 }
 
