@@ -80,7 +80,7 @@ defineProps({
         margin-bottom: 24px;
     }
     .currently {
-        margin-top: 16px
+        margin-top: 16px;
     }
 }
 </style>

@@ -137,7 +137,7 @@ export default {
             let targetSection = null
             let offset = 20; // Default offset for desktop
             if (window.innerWidth <= 1000) { // Adjust threshold as needed
-            offset = 100; // Offset for mobile devices
+            offset = 110; // Offset for mobile devices
         }
 
 
@@ -202,7 +202,7 @@ export default {
     width: 80%;
 }
 a.link-item {
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .spotify {
     margin: 12px 0;

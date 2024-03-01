@@ -5,6 +5,7 @@
             :alt="foray.title"
             class="logo"
         />
+
         <div class="foray-info">
             <h3>{{ foray.title }}</h3>
             <p>{{ foray.subtitle }}</p>
