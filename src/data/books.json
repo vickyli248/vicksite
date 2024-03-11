@@ -1,15 +1,15 @@
 [
     {
-      "id": 1,
-      "image": "tcbof-ys.png",
-      "title": "This Could Be Our Future - Yancey Strickler",
-      "description": "how are our everyday choices and thinking shaped by defaults? are there other ways, besides financially, to define value in society? an interesting read that reshapes the way you think about the future as a collective. our future can be abundant and we are not doomed!"
+        "id": 1,
+        "image": "tcbof-ys.png",
+        "title": "This Could Be Our Future - Yancey Strickler",
+        "description": "how are our everyday choices and thinking shaped by defaults? are there other ways, besides financially, to define value in society? an interesting read that reshapes the way you think about the future as a collective. our future can be abundant and we are not doomed!"
     },
     {
-      "id": 2,
-      "image": "ttt-gz.png",
-      "title": "Tomorrow, and Tomorrow, and Tomorrow - Gabrielle Zevin",
-      "description": "oh god! a rollercoaster of a book. probably not most people's main takeaway, but this book makes me want to work on cool stuff and build cool things with my friends. hard to put down, very fun book to read."
+        "id": 2,
+        "image": "ttt-gz.png",
+        "title": "Tomorrow, and Tomorrow, and Tomorrow - Gabrielle Zevin",
+        "description": "oh god! a rollercoaster of a book. probably not most people's main takeaway, but this book makes me want to work on cool stuff and build cool things with my friends. hard to put down, very fun book to read."
     },
     {
         "id": 3,
@@ -32,8 +32,25 @@
     {
         "id": 6,
         "image": "tdoet-dn.png",
-        "title": "The Design of Everyday Things - Don Norman",
+        "title": "The Design of Everyday Things - Don Norman:",
+        "description": "Cult favorite classic design book (= if you want to build products, you should probably read this book. i quite enjoyed the way that the topic of “human error” was discussed in this book. after reading this book you’ll likely start to notice design decisions (both good and bad) all around you. makes life more fun."
+    },
+    {
+        "id": 7,
+        "image": "g-ad.png",
+        "title": "Grit - Angela Duckworth:",
+        "description": "IMO started slow but then really picked up. the most fascinating parts of this book were the stories about inspiring people told through the lens of how they were raised. if you need a book to light a fire under your you know what, this is the one."
+    },
+    {
+        "id": 8,
+        "image": "hgttg-da.png",
+        "title": "Hitchhiker's Guide to the Galaxy - Douglas Adams:",
+        "description": "(current read)"
+    },
+    {
+        "id": 9,
+        "image": "b-mg.png",
+        "title": "Blink - Malcom Gladwell:",
         "description": "(current read)"
     }
-  ]
-  
+]

@@ -135,7 +135,7 @@ export default {
     methods: {
         scrollToSection(section) {
             let targetSection = null
-            let offset = 20; // Default offset for desktop
+            let offset = 30; // Default offset for desktop
             if (window.innerWidth <= 1000) { // Adjust threshold as needed
             offset = 110; // Offset for mobile devices
         }
