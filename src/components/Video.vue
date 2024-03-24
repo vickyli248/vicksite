@@ -8,7 +8,11 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
+            modestbranding="1"
+            controls="0"
+            rel="0"
         ></iframe>
+
 
         <div class="video-info">
             <h3 class="bold">{{ video.name }}</h3>

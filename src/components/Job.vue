@@ -5,7 +5,7 @@
         <div class="job-info">
             <h3>{{ job.title }}</h3>
             <p>{{ job.description }}</p>
-            <a class="see-work"> → see work </a>
+            <a class="see-work" v-if="job.hasWork"> → see work </a>
         </div>
     </div>
 </template>
