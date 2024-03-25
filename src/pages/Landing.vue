@@ -10,7 +10,7 @@ defineProps({
     <div class="heading">
         <h1 class="landing-title">
             <span class="bold">vicky:</span> designer, product person, &
-            engineer in new york city
+            engineer in nyc
         </h1>
         <h3 class="spaced">
             <span class="bold">enthused by: </span> HCI of autonomous systems,
