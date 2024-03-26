@@ -54,9 +54,6 @@ export default {
 </script>
 
 <style scoped>
-.container {
-    display: flex;
-}
 .content {
     display: flex;
     flex-direction: column;

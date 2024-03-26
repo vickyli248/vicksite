@@ -5,7 +5,9 @@
         <div class="job-info">
             <h3>{{ job.title }}</h3>
             <p>{{ job.description }}</p>
-            <a class="see-work" v-if="job.hasWork"> → see work </a>
+            <router-link :to="`${job.path}`" class="see-work" v-if="job.hasWork">
+                → see work 
+            </router-link>
         </div>
     </div>
 </template>
@@ -37,16 +39,6 @@ export default {
     flex-direction: column;
 }
 
-.see-work {
-    font-size: 1em;
-    margin-top: 16px;
-    border: 1px white solid;
-    padding: 4px 10px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    width: 100px;
-}
 @media screen and (max-width: 1000px) {
     .one-job {
         flex-direction: column;
