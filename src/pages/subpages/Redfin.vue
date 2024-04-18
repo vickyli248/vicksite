@@ -15,7 +15,7 @@ defineProps({
         <div>
             <div class="heading">
                 <img
-                    src="../../../public/assets/jobBanners/redfin.png"
+                    src="/assets/redfin/redfin.png"
                     class="job-banner"
                 />
                 <h1>
@@ -71,7 +71,7 @@ defineProps({
                             and presentational materials.
                         </p>
                         <img
-                            src="../../../public/assets/jobBanners/pic_1.png"
+                            src="/assets/redfin/pic_1.png"
                             class="job-img"
                         />
                         <p>
@@ -88,7 +88,7 @@ defineProps({
                             including color, type, and icon guidelines.
                         </p>
                         <img
-                            src="../../../public/assets/jobBanners/pic_2.png"
+                            src="/assets/redfin/pic_2.png"
                             class="job-img"
                         />
                         <p>
@@ -119,7 +119,7 @@ defineProps({
                             iteration.
                         </p>
                         <img
-                            src="../../../public/assets/jobBanners/pic_3.png"
+                            src="/assets/redfin/pic_3.png"
                             class="job-img"
                         />
                         <p>
@@ -164,7 +164,7 @@ defineProps({
                             patterns.
                         </p>
                         <img
-                            src="../../../public/assets/jobBanners/pic_4.png"
+                            src="/assets/redfin/pic_4.png"
                             class="job-img"
                         />
                         <p>
@@ -209,7 +209,7 @@ defineProps({
                             content existed.
                         </p>
                         <img
-                            src="../../../public/assets/jobBanners/pic_5.png"
+                            src="/assets/redfin/pic_5.png"
                             class="job-img"
                         />
                         <p>
@@ -217,7 +217,7 @@ defineProps({
                             information were to be prioritized over others.
                         </p>
                         <img
-                            src="../../../public/assets/jobBanners/pic_6.png"
+                            src="/assets/redfin/pic_6.png"
                             class="job-img"
                         />
                         <p>
@@ -242,7 +242,7 @@ defineProps({
                             Making use of vertical space
                         </p>
                         <img
-                            src="../../../public/assets/jobBanners/pic_7.png"
+                            src="/assets/redfin/pic_7.png"
                             class="job-img"
                         />
                         <p>
@@ -252,7 +252,7 @@ defineProps({
                             Containers flex as content sizes change
                         </p>
                         <img
-                            src="../../../public/assets/jobBanners/pic_8.png"
+                            src="/assets/redfin/pic_8.png"
                             class="job-img"
                         />
                         <p>
@@ -262,7 +262,7 @@ defineProps({
                             Avoiding text truncation
                         </p>
                         <img
-                            src="../../../public/assets/jobBanners/pic_9.png"
+                            src="/assets/redfin/pic_9.png"
                             class="job-img"
                         />
 
@@ -274,7 +274,7 @@ defineProps({
                             reference.
                         </p>
                         <img
-                            src="../../../public/assets/jobBanners/pic_10.png"
+                            src="/assets/redfin/pic_10.png"
                             class="job-img"
                         />
 
@@ -322,7 +322,7 @@ defineProps({
                                 </a>
                             </div>
                             <img
-                                src="../../../public/assets/jobBanners/pic_11.png"
+                                src="/assets/redfin/pic_11.png"
                                 class="job-img"
                             />
                             <p>
