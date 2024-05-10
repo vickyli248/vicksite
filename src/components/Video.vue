@@ -13,7 +13,6 @@
             rel="0"
         ></iframe>
 
-
         <div class="video-info">
             <h3 class="bold">{{ video.name }}</h3>
             <p>{{ video.description }}</p>

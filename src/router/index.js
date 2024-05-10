@@ -5,6 +5,9 @@ import Consumption from '../pages/Consumption.vue';
 import Professional from '../pages/Professional.vue';
 import FunFunFun from '../pages/FunFunFun.vue';
 import Redfin from '../pages/subpages/Redfin.vue'
+import Bill from '../pages/subpages/Bill.vue'
+import Canoo from '../pages/subpages/Canoo.vue'
+
 
 const routes = [
   {
@@ -26,6 +29,14 @@ const routes = [
   {
     path: '/redfin',
     component: Redfin,
+  },
+  {
+    path: '/bill',
+    component: Bill,
+  },
+  {
+    path: '/canoo',
+    component: Canoo,
   },
 ];
 

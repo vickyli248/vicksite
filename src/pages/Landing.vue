@@ -15,12 +15,23 @@ defineProps({
         <h3 class="spaced">
             <span class="bold">enthused by: </span> HCI of autonomous systems,
             the ingredients of a delightful consumer product, transportation &
-            mobility, aviation, storytelling, engineering youtube videos, the
-            pigeons on my window ledge, community building
+            mobility, aviation, storytelling, engineering youtube videos,
+            community-building, & the pigeons on my window ledge
         </h3>
         <h3 class="currently spaced">
-            <span class="bold">currently: </span> consumer product @ stubhub,
-            bringing more folks to more live events
+            <span class="bold">currently: </span> consumer product @
+            <a
+                href="https://www.stubhub.com/"
+                class="inline-link"
+                target="_blank"
+                >stubhub</a
+            >, bringing more folks to more live events. yapping on
+            <a
+                href="https://linktr.ee/design.talks"
+                class="inline-link"
+                target="_blank"
+                >@design.talks</a
+            >
         </h3>
     </div>
     <div class="content">
@@ -43,6 +54,7 @@ defineProps({
             </div>
         </router-link>
     </div>
+    <Footer></Footer>
 </template>
 
 <style scoped>
@@ -86,7 +98,12 @@ defineProps({
 </style>
 
 <script>
+import Footer from '../components/Footer.vue'
+
 export default {
     name: 'Landing',
+    components: {
+        Footer,
+    },
 }
 </script>

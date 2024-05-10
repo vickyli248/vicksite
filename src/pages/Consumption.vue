@@ -201,9 +201,7 @@ export default {
     margin-top: 24px;
     width: 80%;
 }
-a.link-item {
-    /* text-decoration: underline; */
-}
+
 .spotify {
     margin: 12px 0;
 }

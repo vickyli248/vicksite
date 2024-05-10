@@ -15,14 +15,14 @@
     },
     {
         "img": "bill.png",
-        "title": "software engineer - BILL [internship]",
+        "title": "software developer - BILL [internship]",
         "description": "frontend engineer on the SIMBA team (simple and basic), building BILL's white-label payments product for sole proprietors within bank of america. built and shipped application empty states and a bulk payments feature that allows users to make up to 20 payments at once.",
         "hasWork": true,
         "path": "/bill"
     },
     {
         "img": "canoo.png",
-        "title": "software engineer - canoo [internship]",
+        "title": "software developer - canoo [internship]",
         "description": "frontend engineer on the software operations team. built dashboard interfaces for key company metrics, designed and built a test vehicle tracking application, redesigned and built features for a vehicle software deployment application.",
         "hasWork": true,
         "path": "/canoo"
