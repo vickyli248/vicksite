@@ -201,7 +201,7 @@ p {
         background-size: cover !important;
         background-position: center !important;
         background-repeat: no-repeat !important;
-        background-attachment: fixed !important;
+        background-attachment: scroll !important;
     }
     body {
         background-image: none;
