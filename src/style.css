@@ -192,7 +192,7 @@ p {
 @media screen and (max-width: 1000px) {
     body {
         background: url('/src/assets/images/mobile-landing-1.png') no-repeat center center fixed;
-        background-size: contain;
+        background-size: cover;
 
     }
     .container {
