@@ -71,13 +71,18 @@ export default {
     opacity: 0;
 }
 .job-list {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 1000px) {
     .container {
         flex-direction: column;
+    }
+    body {
+        background: url('/src/assets/images/mobile-landing-1.png') no-repeat
+            center center fixed;
+        background-size: cover;
     }
 }
 </style>

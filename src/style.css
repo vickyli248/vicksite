@@ -68,8 +68,9 @@ body {
     min-height: 100vh;
     color: rgba(255, 255, 255);
     place-items: center;
-    background: url('/src/assets/images/landing-1.png') no-repeat center center fixed;
-  }
+    background: url('/src/assets/images/landing-1.png') no-repeat center center
+        fixed;
+}
 
 h1 {
     font-size: 2.5em;
@@ -191,9 +192,9 @@ p {
 
 @media screen and (max-width: 1000px) {
     body {
-        background: url('/src/assets/images/mobile-landing-1.png') no-repeat center center fixed;
+        background: url('/src/assets/images/mobile-landing-1.png') no-repeat
+            center center fixed;
         background-size: cover;
-
     }
     .container {
         flex-direction: column;
