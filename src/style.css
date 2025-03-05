@@ -192,11 +192,17 @@ p {
 
 @media screen and (max-width: 1000px) {
     body {
-        background-image: url('/src/assets/images/mobile-landing-1.png');
-        background-size: cover;
-        background-position: 85% 50%;
-        background-repeat: no-repeat;
-          }
+        /* background: url('/src/assets/images/mobile-landing-1.png') no-repeat
+            center center fixed;
+        background-size: cover; */
+        /* background: none;
+        background-color: #1b3722; */
+        background-image: url('/src/assets/images/mobile-landing-1.png') !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-attachment: fixed !important;
+    }
     .container {
         flex-direction: column;
         gap: 24px;
