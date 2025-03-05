@@ -42,22 +42,6 @@
                         id="booksSection"
                         ref="booksSection"
                     >
-                        <h2>2024 reading list</h2>
-
-                        <div
-                            v-for="book in books2024"
-                            :key="book.id"
-                            class="book-list"
-                        >
-                            <Book :book="book" class="book" />
-                        </div>
-                        
-                    </div>
-                    <div
-                        class="content-section"
-                        id="booksSection"
-                        ref="booksSection"
-                    >
                         <h2>2025 reading list</h2>
 
                         <div
@@ -67,8 +51,23 @@
                         >
                             <Book :book="book" class="book" />
                         </div>
-                        
                     </div>
+                    <div
+                        class="content-section"
+                        id="booksSection"
+                        ref="booksSection"
+                    >
+                        <h2>2024 reading list</h2>
+
+                        <div
+                            v-for="book in books2024"
+                            :key="book.id"
+                            class="book-list"
+                        >
+                            <Book :book="book" class="book" />
+                        </div>
+                    </div>
+
                     <div
                         class="content-section"
                         id="videosSection"
@@ -154,11 +153,11 @@ export default {
     methods: {
         scrollToSection(section) {
             let targetSection = null
-            let offset = 30; // Default offset for desktop
-            if (window.innerWidth <= 1000) { // Adjust threshold as needed
-            offset = 110; // Offset for mobile devices
-        }
-
+            let offset = 30 // Default offset for desktop
+            if (window.innerWidth <= 1000) {
+                // Adjust threshold as needed
+                offset = 110 // Offset for mobile devices
+            }
 
             // Determine the target section based on the provided argument
             if (section === 'booksSection') {
