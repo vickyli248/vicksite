@@ -79,10 +79,5 @@ export default {
     .container {
         flex-direction: column;
     }
-    body {
-        background: url('/src/assets/images/mobile-landing-1.png') no-repeat
-            center center fixed;
-        background-size: cover;
-    }
 }
 </style>
