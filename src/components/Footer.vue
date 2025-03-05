@@ -46,4 +46,11 @@ export default {}
 .footer-nav-row {
     gap: 24px;
 }
+
+@media screen and (max-width: 1000px) {
+    .footer-nav {
+        margin-top: 40px;
+        position: relative;
+    }
+}
 </style>

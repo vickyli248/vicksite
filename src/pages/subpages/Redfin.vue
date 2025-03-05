@@ -351,6 +351,20 @@ h3 {
 .h3-row h3 {
     margin-top: 0;
 }
+
+@media screen and (max-width: 1000px) {
+    .h2-row {
+        flex-direction: column;
+        align-items: start;
+        gap: 12px;
+    }
+
+    .h3-row {
+        flex-direction: column;
+        align-items: start;
+        gap: 12px;
+    }
+}
 </style>
 <script>
 import '../../subpage-style.css'

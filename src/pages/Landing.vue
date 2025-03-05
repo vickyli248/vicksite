@@ -13,8 +13,7 @@ defineProps({
         </h1>
         <p class="spaced">
             <span class="bold">enthused by: </span> HCI of autonomous systems,
-            the ingredients of a delightful consumer product, transportation &
-            mobility, aviation, storytelling, geeky youtube videos,
+            ingredients of a delightful consumer product, mobility, storytelling, geeky youtube videos,
             community-building, & the pigeons on my window ledge
         </p>
         <p class="currently spaced">

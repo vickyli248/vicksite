@@ -6,9 +6,8 @@
     src: url('/src/assets/fonts/AppleGaramond-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-  }
-  
-  
+}
+
 :root {
     /* font-family:
         Space Grotesk,
@@ -66,7 +65,8 @@ body {
     min-height: 100vh;
     color: rgba(255, 255, 255);
     place-items: center;
-    background: url('/src/assets/images/landing-1.png') no-repeat center center fixed;
+    background: url('/src/assets/images/landing-1.png') no-repeat center center
+        fixed;
     background-size: cover;
 }
 
@@ -169,7 +169,7 @@ p {
     padding: 4px 10px;
 }
 .nav-item:hover {
-    background-color: rgba(8, 15, 60, 0.3)
+    background-color: rgba(8, 15, 60, 0.3);
 }
 .section-header {
     line-height: 120%;
@@ -189,16 +189,24 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        gap: 24px;
+    }
     #app {
         max-width: 75%;
         padding: 3em 0;
     }
     h1 {
         font-size: 1.8em;
-        line-height: 120%;
+        line-height: 130%;
     }
     h2 {
         font-size: 1.6em;
+        line-height: 120%;
+    }
+    h3 {
+        line-height: 120%;
     }
     .spaced {
         line-height: 150%;
