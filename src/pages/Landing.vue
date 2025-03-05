@@ -9,30 +9,37 @@ defineProps({
 <template>
     <div class="heading">
         <h1 class="landing-title">
-            <span class="bold">vicky:</span> designer, product person, &
-            engineer in nyc
+            <span class="bold">vicky:</span> designer, product-lover, creator, & engineer in new york city
         </h1>
-        <h3 class="spaced">
+        <p class="spaced">
             <span class="bold">enthused by: </span> HCI of autonomous systems,
             the ingredients of a delightful consumer product, transportation &
-            mobility, aviation, storytelling, engineering youtube videos,
+            mobility, aviation, storytelling, geeky youtube videos,
             community-building, & the pigeons on my window ledge
-        </h3>
-        <h3 class="currently spaced">
+        </p>
+        <p class="currently spaced">
             <span class="bold">currently: </span> consumer product @
-            <a
-                href="https://www.stubhub.com/"
-                class="inline-link"
-                target="_blank"
-                >stubhub</a
-            >, bringing more folks to more live events. yapping on
+            stubhub, yapping on
             <a
                 href="https://linktr.ee/design.talks"
                 class="inline-link"
                 target="_blank"
                 >@design.talks</a
             >
-        </h3>
+            , creating on
+            <a
+                href="https://www.tiktok.com/@vickyyli"
+                class="inline-link"
+                target="_blank"
+                >@vickyyli</a
+            >
+            , and designing something fun in stealth
+        </p>
+        <p class="currently spaced">
+            <span class="bold">previous lives: </span> cs at uc berkeley, design sys at redfin, engineer 
+            at bill.com & canoo, freelance photographer & web designer/developer
+        </p>
+
     </div>
     <div class="content">
         <router-link to="/professional" class="row-box">
@@ -59,7 +66,7 @@ defineProps({
 
 <style scoped>
 .landing-title {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 .content {
     display: flex;
@@ -72,13 +79,12 @@ defineProps({
     padding: 24px;
     width: 30%;
     margin-right: 12px;
-    background-color: #1c271c;
+    /* background-color: #1c271c; */
+    transition: all 300ms ease-in-out;
     color: #ffffff;
 }
 .row-box:hover {
-    border: 3px dashed #ffffff;
-    background-color: #121f12;
-    color: #ffffff;
+    background-color: rgba(8, 15, 60, 0.3);
 }
 
 @media screen and (max-width: 1000px) {

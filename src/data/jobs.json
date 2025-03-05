@@ -2,8 +2,8 @@
     {
         "img": "stubhub.png",
         "title": "product manager - stubhub [current]",
-        "description": "product lead on the performer page (the page with the list of a performer's events), leading a team of 6 engineers and designers. maintaining smooth team operations, designing features, driving and roadmapping product decisions, building data analysis tools.",
-        "hasWork": false,
+        "description": "product lead on the performer and venue map pages, leading teams of up to 10 engineers and designers. maintaining smooth team operations, designing features, driving and roadmapping product decisions, building data-powered user behavior and sales dashboard.",
+        "hasWork": true,
         "path": "/stubhub"
     },
     {

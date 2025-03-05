@@ -8,27 +8,27 @@
         "isExternal": true
     },
     {
+        "img": "vickyyli.png",
+        "title": "@vickyyli: early career, finance, life, tech and everything in between",
+        "subtitle": "→ content-creation, business ops",
+        "description": "",
+        "link": "https://www.tiktok.com/@vickyyli",
+        "isExternal": true
+    },
+    {
         "img": "wdb.png",
         "title": "web development at berkeley: creating a community around building",
         "subtitle": "→ community-building, brand design",
         "description": "",
-        "link": "",
-        "isExternal": false
+        "link": "https://www.webatberkeley.org/",
+        "isExternal": true
     },
     {
         "img": "fullstackdecal.png",
         "title": "introduction to full stack development course",
         "subtitle": "→ curriculum development, teaching",
         "description": "",
-        "link": "",
-        "isExternal": false
-    },
-    {
-        "img": "vickyyli.png",
-        "title": "@vickyyli: early career, college, recruiting, and everything in between",
-        "subtitle": "→ content-creation, business ops",
-        "description": "",
-        "link": "https://www.tiktok.com/@vickyyli",
+        "link": "https://fullstackdecal.com/",
         "isExternal": true
     },
     {

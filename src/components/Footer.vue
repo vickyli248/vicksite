@@ -9,12 +9,17 @@
             >
                 linkedin
             </a>
-            <a class="footer-nav-item" href="https://twitter.com/vickyy_li">
+            <a
+                class="footer-nav-item"
+                href="https://twitter.com/vickyy_li"
+                target="_blank"
+            >
                 twitter
             </a>
             <a
                 class="footer-nav-item"
                 href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=victoria.li@berkeley.edu"
+                target="_blank"
             >
                 email
             </a>
@@ -28,7 +33,7 @@ export default {}
 
 <style scoped>
 .footer-nav {
-    position: fixed;
+    position: absolute;
     bottom: 16px;
 }
 

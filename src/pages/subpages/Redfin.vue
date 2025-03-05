@@ -36,7 +36,7 @@ defineProps({
                         free to reach out to learn more about my work.
                     </p>
 
-                    <div class="nav">
+                    <!-- <div class="nav">
                         <h3 class="nav-label">jump to →</h3>
                         <div class="nav-row">
                             <a
@@ -58,7 +58,7 @@ defineProps({
                                 other work
                             </a>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- Project 1 -->
                     <div class="project">
@@ -343,6 +343,15 @@ defineProps({
     </div>
 </template>
 
+<style scoped>
+h3 {
+    margin-top: 20px;
+}
+
+.h3-row h3 {
+    margin-top: 0;
+}
+</style>
 <script>
 import '../../subpage-style.css'
 export default {

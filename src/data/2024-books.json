@@ -16,7 +16,7 @@
         "image": "rbc-svp.png",
         "title": "Remarkably Bright Creatures - Shelby Van Pelt",
         "description": "very very very very wholesome book. it's about a friendship between a giant octopus and an old lady. literally nothing could go wrong, very feel good book centered around community and friendship and everything happy"
-      },
+    },
     {
         "id": 4,
         "image": "ctviohwim-ek.png",
@@ -32,25 +32,55 @@
     {
         "id": 6,
         "image": "tdoet-dn.png",
-        "title": "The Design of Everyday Things - Don Norman:",
+        "title": "The Design of Everyday Things - Don Norman",
         "description": "Cult favorite classic design book (= if you want to build products, you should probably read this book. i quite enjoyed the way that the topic of “human error” was discussed in this book. after reading this book you’ll likely start to notice design decisions (both good and bad) all around you. makes life more fun."
     },
     {
         "id": 7,
         "image": "g-ad.png",
-        "title": "Grit - Angela Duckworth:",
+        "title": "Grit - Angela Duckworth",
         "description": "IMO started slow but then really picked up. the most fascinating parts of this book were the stories about inspiring people told through the lens of how they were raised. if you need a book to light a fire under your you know what, this is the one."
     },
     {
         "id": 8,
         "image": "hgttg-da.png",
-        "title": "Hitchhiker's Guide to the Galaxy - Douglas Adams:",
-        "description": "(current read)"
+        "title": "Hitchhiker's Guide to the Galaxy - Douglas Adams",
+        "description": "Guys do I just not get it?? I need to read this book again I believe. I think my mind needs to be on a higher plane to understand this book. Brb trying again, earnestly going to try again"
     },
     {
         "id": 9,
         "image": "b-mg.png",
-        "title": "Blink - Malcom Gladwell:",
-        "description": "(current read)"
+        "title": "Blink - Malcom Gladwell",
+        "description": "Got really good as it went on. Especially fascinating was the last part that talks about how high stress situations can cause us to zone in on gut instincts and biases. Another classic Malcom Gladwell banger, I could talk about this one for a bit."
+    },
+    {
+        "id": 10,
+        "image": "thaegs-jm.png",
+        "title": "The Heaven and Earth Grocery Store - James McBride",
+        "description": "Lots of good character and world-building. At times a bit hard to follow (i am terrible at remembering names of characters).  Lots of heartwarming moments, and strong themes of community, coming together, and how seemingly long-gone pasts affect our current day. "
+    },
+    {
+        "id": 11,
+        "image": "ctt-hm.png",
+        "title": "Colorless Tsukuru Tazaki - Haruki Murakami",
+        "description": "This one had me on the edge of my seat. I needed to KNOOOWWWW. I finished this book in the span of 2 days I believe. This book emanates nostalgia, yearning, and reconnection. Lots of mystery, but set around fairly ordinary people/lives which makes it all the more poignant."
+    },
+    {
+        "id": 12,
+        "image": "tw-dg.png",
+        "title": "The Wager - David Grann",
+        "description": "I was supposed to read this with my boyfriend, but he finished it in two days (me two weeks). This one really just makes you ponder... Lots of action and surprise in here."
+    },
+{
+        "id": 13,
+        "image": "a-tc.png",
+        "title": "Arrival - Ted Chiang",
+        "description": "I love love love this genre of short stories. Complex and bite-sized explorations of language, connection, ethics, and more. If you used to watch Vsauce as a kid you’d like this book. (Unrelated, listen to “On the Nature of Daylight” by Max Richter)"
+    },
+{
+        "id": 14,
+        "image": "ify-lj.png",
+        "title": "I Found You - Lisa Jewell",
+        "description": "Not my usual genre of book, stole this one from my sister briefly. Still, was difficult to put this one down. Easy to follow, and very interesting characters in this book."
     }
 ]

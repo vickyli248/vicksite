@@ -11,7 +11,7 @@
                     videos, articles, things that shape my brain
                 </h1>
             </div>
-            <div class="nav">
+            <!-- <div class="nav">
                 <h3 class="nav-label">jump to →</h3>
                 <div class="nav-row">
                     <a
@@ -33,7 +33,7 @@
                         other things
                     </a>
                 </div>
-            </div>
+            </div> -->
 
             <Transition name="fade">
                 <div v-if="showBooks">
@@ -45,12 +45,29 @@
                         <h2>2024 reading list</h2>
 
                         <div
-                            v-for="book in books"
+                            v-for="book in books2024"
                             :key="book.id"
                             class="book-list"
                         >
                             <Book :book="book" class="book" />
                         </div>
+                        
+                    </div>
+                    <div
+                        class="content-section"
+                        id="booksSection"
+                        ref="booksSection"
+                    >
+                        <h2>2025 reading list</h2>
+
+                        <div
+                            v-for="book in books2025"
+                            :key="book.id"
+                            class="book-list"
+                        >
+                            <Book :book="book" class="book" />
+                        </div>
+                        
                     </div>
                     <div
                         class="content-section"
@@ -110,7 +127,8 @@
 import '../style.css'
 import Book from '../components/Book.vue'
 import Video from '../components/Video.vue'
-import booksData from '../data/books.json'
+import booksData2024 from '../data/2024-books.json'
+import booksData2025 from '../data/2025-books.json'
 import videosData from '../data/videos.json'
 import { Transition } from 'vue'
 
@@ -118,7 +136,8 @@ export default {
     name: 'Consumption',
     data() {
         return {
-            books: booksData,
+            books2024: booksData2024,
+            books2025: booksData2025,
             showBooks: false,
             videos: videosData,
         }
@@ -205,6 +224,12 @@ export default {
 .spotify {
     margin: 12px 0;
 }
+
+.link-item {
+    font-family: 'Space Grotesk';
+    font-style: underline;
+}
+
 @keyframes ellipsis {
     to {
         width: 1.25em;
