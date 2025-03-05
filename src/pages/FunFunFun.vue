@@ -63,6 +63,7 @@
 
 <script>
 import '../style.css'
+import '../subpage-style.css'
 import foraysData from '../data/forays.json'
 import Foray from '../components/Foray.vue'
 import { Transition } from 'vue'

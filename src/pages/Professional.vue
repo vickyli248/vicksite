@@ -30,6 +30,7 @@
 
 <script>
 import '../style.css'
+import '../subpage-style.css'
 import jobsData from '../data/jobs.json'
 import Job from '../components/Job.vue'
 import { Transition } from 'vue'

@@ -124,6 +124,7 @@
 
 <script>
 import '../style.css'
+import '../subpage-style.css'
 import Book from '../components/Book.vue'
 import Video from '../components/Video.vue'
 import booksData2024 from '../data/2024-books.json'
