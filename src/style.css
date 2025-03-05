@@ -8,6 +8,9 @@
     font-style: normal;
 }
 
+* {
+    box-sizing: border-box;
+}
 :root {
     /* font-family:
         Space Grotesk,
