@@ -7,6 +7,8 @@ defineProps({
 </script>
 
 <template>
+    <div class="fullscreen-bg"></div>
+
     <div class="container">
         <router-link to="/professional">
             <h1 class="back-arrow">←</h1>
@@ -30,10 +32,10 @@ defineProps({
                         vehicle tracking tool.
                     </p>
                     <p>
-                        Using React and Tailwind CSS, I was able to
-                        not only build features on the frontend, but also got a
-                        chance to explore UI design. Here are some of the things
-                        that I worked on at Canoo.
+                        Using React and Tailwind CSS, I was able to not only
+                        build features on the frontend, but also got a chance to
+                        explore UI design. Here are some of the things that I
+                        worked on at Canoo.
                     </p>
                     <p>
                         - Created an NPM graph wrapper package around Victory

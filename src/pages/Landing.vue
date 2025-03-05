@@ -7,6 +7,7 @@ defineProps({
 </script>
 
 <template>
+    <div class="fullscreen-bg"></div>
     <div class="heading">
         <h1 class="landing-title">
             <span class="bold">vicky:</span> designer, product-lover, creator, & engineer in new york city

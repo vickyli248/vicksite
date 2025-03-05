@@ -1,4 +1,6 @@
 <template>
+    <div class="fullscreen-bg"></div>
+
     <div class="container">
         <router-link to="/">
             <h1 class="back-arrow">←</h1>
@@ -124,7 +126,6 @@
 
 <script>
 import '../style.css'
-import '../subpage-style.css'
 import Book from '../components/Book.vue'
 import Video from '../components/Video.vue'
 import booksData2024 from '../data/2024-books.json'

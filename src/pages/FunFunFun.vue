@@ -1,4 +1,6 @@
 <template>
+    <div class="fullscreen-bg"></div>
+
     <div class="container">
         <router-link to="/">
             <h1 class="back-arrow">←</h1>
@@ -63,7 +65,6 @@
 
 <script>
 import '../style.css'
-import '../subpage-style.css'
 import foraysData from '../data/forays.json'
 import Foray from '../components/Foray.vue'
 import { Transition } from 'vue'

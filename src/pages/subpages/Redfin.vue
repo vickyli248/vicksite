@@ -7,6 +7,8 @@ defineProps({
 </script>
 
 <template>
+    <div class="fullscreen-bg"></div>
+
     <div class="container">
         <router-link to="/professional">
             <h1 class="back-arrow">←</h1>

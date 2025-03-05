@@ -41,22 +41,3 @@ p {
     width: 100%;
     margin-top: 16px;
 }
-
-@media screen and (max-width: 1000px) {
-    html {
-        /* background: url('/src/assets/images/mobile-landing-1.png') no-repeat
-            center center fixed;
-        background-size: cover; */
-        /* background: none;
-        background-color: #1b3722; */
-        background-image: url('/src/assets/images/mobile-landing-1.png') !important;
-        background-size: cover !important;
-        background-position: center !important;
-        background-repeat: no-repeat !important;
-        background-attachment: fixed !important;
-    }
-
-    body {
-        background-image: none;
-    }
-}

@@ -1,4 +1,6 @@
 <template>
+    <div class="fullscreen-bg"></div>
+
     <div class="container">
         <router-link to="/">
             <h1 class="back-arrow">←</h1>
@@ -30,7 +32,6 @@
 
 <script>
 import '../style.css'
-import '../subpage-style.css'
 import jobsData from '../data/jobs.json'
 import Job from '../components/Job.vue'
 import { Transition } from 'vue'
