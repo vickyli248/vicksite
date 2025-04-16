@@ -9,8 +9,7 @@
         <div class="content">
             <div class="heading">
                 <h1>
-                    <span class="bold">fun forays:</span> the involuntary
-                    projects that fill me with glee
+                    <span class="bold">fun forays:</span> projects fueled with glee and curiosity
                 </h1>
             </div>
             <!-- <div class="nav-row">

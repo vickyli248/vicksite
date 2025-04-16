@@ -2,14 +2,14 @@
     {
         "img": "stubhub.png",
         "title": "product manager - stubhub [current]",
-        "description": "product lead on the performer and venue map pages, leading teams of up to 10 engineers and designers. maintaining smooth team operations, designing features, driving and roadmapping product decisions, building data-powered user behavior and sales dashboard.",
+        "description": "Leading product for Discovery at StubHub, shaping how users explore events through the home page, artist, and venue experiences. Working with engineers and designers to ship high-impact features, run rapid experiments, and use data to drive smarter, more personalized event discovery.",
         "hasWork": true,
         "path": "/stubhub"
     },
     {
         "img": "redfin.png",
         "title": "product designer - redfin [internship]",
-        "description": "product design intern on the design systems team, building and shipping redfin's flagship design system, Blueprint. created meta-design system, rolled out and tested the new design system, and designed guidelines for building resilient interfaces that scale with dynamic type sizing.",
+        "description": "Product design intern on the design systems team, building and shipping redfin's flagship design system, Blueprint. Created meta-design system, rolled out and tested the new design system, and designed guidelines for building resilient interfaces that scale with dynamic type sizing.",
         "hasWork": true,
         "path": "/redfin"
     },

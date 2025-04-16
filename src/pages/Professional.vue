@@ -9,8 +9,7 @@
         <div class="content">
             <div class="heading">
                 <h1>
-                    <span class="bold">work experience:</span> some stuff that
-                    i've worked on as an employee
+                    <span class="bold">work experience:</span> in product, design, and engineering
                 </h1>
             </div>
             <Transition name="fade">

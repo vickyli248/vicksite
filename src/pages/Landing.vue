@@ -10,16 +10,18 @@ defineProps({
     <div class="fullscreen-bg"></div>
     <div class="heading">
         <h1 class="landing-title">
-            <span class="bold">vicky:</span> designer, product-lover, creator, & engineer in new york city
+            <span class="bold">vicky:</span> designer, product-lover, creator, &
+            engineer in new york city
         </h1>
         <p class="spaced">
-            <span class="bold">enthused by: </span> HCI of autonomous systems,
-            ingredients of a delightful consumer product, mobility, storytelling, geeky youtube videos,
-            community-building, & the pigeons on my window ledge
+            <span class="bold">enthused by: </span> the quiet mechanics behind
+            the everyday, invisible choices behind delightful products, the
+            choreography between humans and machines, storytelling, & the
+            pigeons on my window ledge
         </p>
         <p class="currently spaced">
-            <span class="bold">currently: </span> consumer product @
-            stubhub, yapping on
+            <span class="bold">currently: </span> consumer product @ stubhub,
+            yapping on
             <a
                 href="https://linktr.ee/design.talks"
                 class="inline-link"
@@ -36,28 +38,28 @@ defineProps({
             , and designing something fun in stealth
         </p>
         <p class="currently spaced">
-            <span class="bold">previous lives: </span> cs at uc berkeley, design sys at redfin, engineer 
-            at bill.com & canoo, freelance photographer & web designer/developer
+            <span class="bold">previous lives: </span> cs at uc berkeley, design
+            sys at redfin, engineering at bill.com & canoo, freelance photographer
+            & web designer/developer
         </p>
-
     </div>
     <div class="content">
         <router-link to="/professional" class="row-box">
             <div>
                 <h3>work experience</h3>
-                <p>some stuff that i've worked on as an employee</p>
+                <p>in product, design, and engineering</p>
             </div>
         </router-link>
 
         <router-link to="/funfunfun" class="row-box">
             <div>
                 <h3>fun forays</h3>
-                <p>the involuntary things that fill me with glee</p>
+                <p>projects fueled with glee and curiosity</p>
             </div> </router-link
         ><router-link to="/consumption" class="row-box">
             <div>
                 <h3>curated consumption</h3>
-                <p>books, videos, articles, the things that shape my brain</p>
+                <p>all the content that shapes my brain</p>
             </div>
         </router-link>
     </div>
@@ -70,13 +72,14 @@ defineProps({
 }
 .content {
     display: flex;
-    margin-top: 24px;
+    margin-top: 36px;
+    gap: 8px;
     width: 100%;
-    align-content: space-around;
+    align-content: space-evenly;
 }
 .row-box {
-    border: 3px solid #ffffff;
-    padding: 24px;
+    border: 2px solid #ffffff;
+    padding: 20px 24px;
     width: 30%;
     margin-right: 12px;
     /* background-color: #1c271c; */

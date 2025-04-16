@@ -13,14 +13,20 @@
     },
     {
         "id": 3,
-        "image": "tt-an.png",
-        "title": "The Times - Adam Nagourney",
-        "description": "Reading... (งツ)ว"
-    },
-{
-        "id": 3,
         "image": "tpd-ap.png",
         "title": "These Precious Days - Ann Patchett",
+        "description": "I feared this one would make me weep and it did. ON A PLANE!!! very digestible and poignant short stories from the author's life. a mix of bittersweet, heartwarming, and feel-good. these really are some precious days."
+    },
+    {
+        "id": 4, 
+        "image": "s-se.png",
+        "title": "Silence - Shusaku Endo",
+        "description": "A library recommendation from my boyfriend. This one is a thinker. The book follows a priest's grappling with his religion as he, and many others, are being persecuted for it. Lots of ambiguity and very little right or wrong."
+    },
+    {
+        "id": 5,
+        "image": "tt-an.png",
+        "title": "The Times - Adam Nagourney",
         "description": "Reading... (งツ)ว"
     }
 ]

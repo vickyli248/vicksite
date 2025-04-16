@@ -26,12 +26,13 @@ export default {
     max-width: 100px;
     height: 100%;
     margin-right: 36px;
+    margin-top: 4px;
 }
 .one-job {
     display: flex;
     flex-direction: row;
     margin-top: 32px;
-    width: 85%;
+    width: 95%;
 }
 
 .job-info {

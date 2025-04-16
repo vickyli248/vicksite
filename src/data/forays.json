@@ -10,7 +10,7 @@
     {
         "img": "vickyyli.png",
         "title": "@vickyyli: early career, finance, life, tech and everything in between",
-        "subtitle": "→ content-creation, business ops",
+        "subtitle": "→ content-creation, brand deals",
         "description": "",
         "link": "https://www.tiktok.com/@vickyyli",
         "isExternal": true
@@ -18,23 +18,15 @@
     {
         "img": "wdb.png",
         "title": "web development at berkeley: creating a community around building",
-        "subtitle": "→ community-building, brand design",
+        "subtitle": "→ community-building, design",
         "description": "",
         "link": "https://www.webatberkeley.org/",
         "isExternal": true
     },
     {
-        "img": "fullstackdecal.png",
-        "title": "introduction to full stack development course",
-        "subtitle": "→ curriculum development, teaching",
-        "description": "",
-        "link": "https://fullstackdecal.com/",
-        "isExternal": true
-    },
-    {
-        "img": "redfinstay.png",
-        "title": "redfin stay: short term rentals on redfin",
-        "subtitle": "→ ux / product design",
+        "img": "huddle.png",
+        "title": "huddle: redefining virtual social interactions",
+        "subtitle": "→ all types of design, frontend development",
         "description": "",
         "link": "",
         "isExternal": false
@@ -48,17 +40,25 @@
         "isExternal": false
     },
     {
-        "img": "happydrops.png",
-        "title": "happy drops: creating cute things that make people smile",
-        "subtitle": "→ app design, ux / product design",
+        "img": "redfinstay.png",
+        "title": "redfin stay: short term rentals on redfin",
+        "subtitle": "→ ux / product design",
         "description": "",
         "link": "",
         "isExternal": false
     },
     {
-        "img": "huddle.png",
-        "title": "huddle: redefining virtual social interactions",
-        "subtitle": "→ all types of design, frontend development",
+        "img": "fullstackdecal.png",
+        "title": "introduction to full stack development course",
+        "subtitle": "→ curriculum development, teaching",
+        "description": "",
+        "link": "https://fullstackdecal.com/",
+        "isExternal": true
+    },
+    {
+        "img": "happydrops.png",
+        "title": "happy drops: creating cute things that make people smile",
+        "subtitle": "→ app design, ux / product design",
         "description": "",
         "link": "",
         "isExternal": false
@@ -74,7 +74,7 @@
     {
         "img": "cs70.png",
         "title": "discrete math and probability theory",
-        "subtitle": "→ course staff, teaching",
+        "subtitle": "→ teaching",
         "description": "",
         "link": "",
         "isExternal": false
@@ -90,7 +90,7 @@
     {
         "img": "vlmedia.png",
         "title": "vl media: capturing happiness",
-        "subtitle": "→ curriculum development, teaching",
+        "subtitle": "→ freelance photography",
         "description": "",
         "link": "",
         "isExternal": false

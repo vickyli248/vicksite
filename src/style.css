@@ -58,14 +58,14 @@ a.inline-link {
 }
 
 .see-work {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 16px;
     border: 1px white solid;
     padding: 4px 2px;
     cursor: pointer;
     display: flex;
     justify-content: center;
-    width: 100px;
+    width: 110px;
     height: 100%;
     transition: all 300ms ease-in-out;
 }
@@ -94,34 +94,34 @@ h1 {
 }
 
 h2 {
-    font-size: 1.9em;
+    font-size: 2em;
     margin: 0;
     font-weight: 500;
 }
 
 h3 {
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1.7em;
     margin: 0;
     line-height: 135%;
 }
 
 .bold {
     font-weight: 500;
-    font-size: 1.4em;
+    font-size: 1.5em;
     margin: 0;
     font-family: 'AppleGaramond';
 }
 
 p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin: 0;
     font-weight: 400;
     font-family: 'Space Grotesk';
 }
 
 .spaced {
-    line-height: 160%;
+    line-height: 150%;
 }
 
 .card {
