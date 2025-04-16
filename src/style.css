@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
     font-family: 'AppleGaramond';
@@ -14,12 +14,10 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url('/src/assets/images/landing-1.png') no-repeat
-        center center;
+    background: url('/src/assets/images/landing-1.png') no-repeat center center;
     background-size: cover;
     z-index: -1;
 }
-
 
 * {
     box-sizing: border-box;
@@ -108,16 +106,20 @@ h3 {
 
 .bold {
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin: 0;
     font-family: 'AppleGaramond';
+}
+
+h1 .bold {
+    font-size: 1.3em;
 }
 
 p {
     font-size: 1.2em;
     margin: 0;
     font-weight: 400;
-    font-family: 'Space Grotesk';
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .spaced {
@@ -227,15 +229,19 @@ p {
         padding: 3em 0;
     }
     h1 {
-        font-size: 1.8em;
+        font-size: 2em;
         line-height: 130%;
     }
     h2 {
-        font-size: 1.6em;
+        font-size: 1.7em;
         line-height: 120%;
     }
     h3 {
         line-height: 120%;
+        font-size: 1.8em;
+    }
+    p {
+        font-size: 1.35em;
     }
     .spaced {
         line-height: 150%;
@@ -260,5 +266,9 @@ p {
     }
     .content-section {
         padding-top: 16px;
+    }
+    .see-work {
+        font-size: 1.4em;
+        width: 140px;
     }
 }

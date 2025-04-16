@@ -1,6 +1,6 @@
 <template>
     <div class="footer-nav">
-        <h3 class="footer-nav-label">reach me →</h3>
+        <h3 class="footer-nav-label">reach me:</h3>
         <div class="footer-nav-row">
             <a
                 class="footer-nav-item"
@@ -47,10 +47,28 @@ export default {}
     gap: 24px;
 }
 
+.footer-nav-label {
+    font-size: 24px;
+}
+
+.footer-nav-item {
+    font-size: 20px;
+}
+
 @media screen and (max-width: 1000px) {
     .footer-nav {
         margin-top: 40px;
         position: relative;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .footer-nav-label {
+        font-size: 28px;
+    }
+
+    .footer-nav-item {
+        font-size: 24px;
+        font-family: 'Hanken Grotesk', sans-serif;
     }
 }
 </style>

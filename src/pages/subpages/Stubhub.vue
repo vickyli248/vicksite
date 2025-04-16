@@ -17,6 +17,10 @@ defineProps({
         <div>
             <div class="heading">
                 <img src="/assets/stubhub/stubhub.png" class="job-banner" />
+                <img
+                    src="/assets/stubhub/stubhub-mobile.png"
+                    class="job-banner-mobile"
+                />
                 <h1>
                     <span class="bold">Product Manager @ StubHub:</span> Aug
                     2023 - Present
@@ -65,7 +69,8 @@ defineProps({
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
 
 <script>
 import '../../subpage-style.css'

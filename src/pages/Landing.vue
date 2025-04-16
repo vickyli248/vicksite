@@ -103,6 +103,10 @@ defineProps({
     .currently {
         margin-top: 16px;
     }
+    .currently.spaced {
+        margin-top: 24px;
+    }
+
 }
 </style>
 

@@ -8,6 +8,7 @@ import Stubhub from '../pages/subpages/Stubhub.vue'
 import Redfin from '../pages/subpages/Redfin.vue'
 import Bill from '../pages/subpages/Bill.vue'
 import Canoo from '../pages/subpages/Canoo.vue'
+import Together from '../pages/subpages/Together.vue'
 
 const routes = [
     {
@@ -41,6 +42,10 @@ const routes = [
     {
         path: '/canoo',
         component: Canoo,
+    },
+    {
+        path: '/together',
+        component: Together,
     },
 ]
 

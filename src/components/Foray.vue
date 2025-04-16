@@ -1,12 +1,15 @@
 <template>
     <div class="one-foray">
-        <a v-if="!foray.isExternal">
+        <router-link
+            :to="`${foray.link}`"
+            v-if="!foray.isExternal"
+        >
             <img
                 :src="`/assets/forays/${foray.img}`"
                 :alt="foray.title"
                 class="logo"
             />
-        </a>
+        </router-link>
         <a v-if="foray.isExternal" :href="foray.link" target="_blank">
             <img
                 :src="`/assets/forays/${foray.img}`"
